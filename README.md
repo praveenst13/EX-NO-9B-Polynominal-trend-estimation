@@ -2,7 +2,16 @@
 ## AIM:
   To implement Polynominal and linear trend estimation  using python program 
 ## PROCEDURE:
- 
+   1 Import necessary libraries, including NumPy for numerical operations, Matplotlib for plotting, and Pandas for data handling.
+   
+   2 Fit a linear regression model to the data using LinearRegression() from the sklearn.linear_model module.
+   
+   3 Use PolynomialFeatures from the sklearn.preprocessing module to create polynomial features of degree 4.
+   
+   4 Add a title, xlabel, and ylabel for the plot and Display the plot using plt.show()
+   
+   5 Use lin.predict() to predict with the linear regression model
+   
 ## PROGRAM:
 ```
 
@@ -82,10 +91,10 @@ lin2.predict(poly.fit_transform(pred2array))
 
 
 
-## Linear Regression:
+### Linear Regression:
 
 ![image](https://github.com/praveenst13/EX-NO-9A-linear-trend-estimation/assets/118787793/52095cee-2d03-457e-84a9-e517a4ae1234)
-## Polynominal Regression:
+### Polynominal Regression:
 ![image](https://github.com/praveenst13/EX-NO-9A-linear-trend-estimation/assets/118787793/a817f843-cad3-41e5-8c2e-a0ade87c1b37)
 
 
